@@ -5,6 +5,6 @@ I have in this program created a new transport layer, RDP, which provides multip
 
 to run in command line: 
 open as many terminals as you want clients to recieve a file - each client gets its own terminal. 
-*run makefile*
-in one terminal: ./server <PORT> <filename> <number of files> <loss probability> 
-in the other terminals: ./client <SERVER PORT> <Server ip adress> <loss probability>
+*run makefile*.
+in one terminal: ./server.
+In the other terminals: ./client
